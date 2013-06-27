@@ -17,6 +17,8 @@ NOUNS:
 		TheLordOfTheRings_TheReturnOfTheKing
 		TheLordOfTheRings_TheTwoTowers
 		TheLordOfTheRings_TheFellowshipOfTheRing
+	Racism		RememberTheTitans		SchindlersList		HotelRowanda	Mafia		Goodfellas		Leon_TheProfessional		TheGodfather	Love		Inception		MissingPieces		Casablanca	Betrayal		Casablanca		Gladiator		TheDarkKnightRises	Running		ForestGump		FightClub		NorthByNorthwest	Journey		ForestGump		TheLordOfTheRings_TheReturnOfTheKing		TheGrapesOfWrath	War		TheLordOfTheRings_TheReturnOfTheKing		TheMatrix		TheAvengers	Redemption		TheAvengers		TheShawshankRedemption		PulpFiction	Macguffin		PulpFiction		RaidersOfTheLostArk		NorthByNorthWest	
+	Kidnapping		TheSilenceOfTheLambs		CidadeDeDeus		ThePrestige	Paralyzed		RememberTheTitans		Intouchables		SheMadeMeACriminal 	Slum		CidadeDeDeus		TaxiDriver		SlumdogMillionaire	Millionaire		SomeLikeItHot		TheBigLebowski		CitizenKane	Alcohol		WhosAfraidOfVirginiaWolf		TheUntouchables		HotFuzz	Corruption		Gladiator		TheDeparted		RequiemForADream	HillBilly		TuckerAndDaleVsEvil		BonnieAndClyde		Deliverance	Robbery		TheUsualSuspects		AClockWorkOrange		ReservoirDogs	Future		BackToTheFuture		Wall_E		BladeRunner	One Man Army		TheTerminator		DieHard		Yojinbo	Detective		RearWindow		Se7en		IngloriousBastards
 
 ADJECTIVES:
 	IndependentFilm:
@@ -94,4 +96,4 @@ ADJECTIVES:
 	Horror:
 		WorldWarZ
 		HanselAndGretel_WitchHunters
-		WarmBodies
+		WarmBodies	
