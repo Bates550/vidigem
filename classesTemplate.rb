@@ -17,9 +17,9 @@ class Features
 		@features = {:cocaine => 2, :gangsters => 3, :robbery => 5}
 	end
 
-	def getComp(movie)
-		return nil unless movie.class == Movie
-		composite = movie.traits.inject(1) {|comp, trait| comp * @features[trait]} 
+	def getComposite(movietraits)
+		return nil unless movietraits.class == Array
+		composite = movietraits.inject(1) {|comp, trait| comp * @features[trait]} 
 		return composite
 	end
 end
@@ -27,7 +27,7 @@ end
 goodfellas = Movie.new("Goodfellas", [:cocaine, :gangsters, :robbery])
 
 features = Features.new
-puts features.getComp(goodfellas)
-p goodfellas.traits
+puts features.getComposite(goodfellas.traits)
+
 
 
