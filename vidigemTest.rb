@@ -32,22 +32,22 @@ class Retrieve
 =begin
 This class is used to retrieve data from hash tables and arrays.
 =end
-	def get_prime(main, trait, level=:primes)
-	    # returns the prime value of an attribute
-		main[level][trait]
-	end
+  def get_prime(main, trait, level=:primes)
+    # returns the prime value of an attribute
+	main[level][trait]
+  end
 
-	def get_traits(main, level = :primes)
-		# gets all the traits in database
-		main[:primes].keys
+  def get_traits(main, level = :primes)
+	# gets all the traits in database
+	main[:primes].keys
 	end 
-end
+  end
 
 class Calculate	
 =begin
 This class is used to make the various calculations necessary throughout the program.
 =end
-	def get_composite(main, movie, level = :movies)
+  def get_composite(main, movie, level = :movies)
 		retrieve = Retrieve.new
 		
 		# Enters the dimension with a movies traits           ex: ["love", "betrayal"]
@@ -58,7 +58,7 @@ This class is used to make the various calculations necessary throughout the pro
 		
 		# multiplies the primes to produce a composite.       ex: 3 * 5 = 15
 		primeList.inject {|memo, n| memo * n}
-	end
+  end
 ###########################################################################################################
 	def composite_hash(main, movie, level = :composites)
 		
