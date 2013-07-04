@@ -13,6 +13,8 @@ Betrayal:
 	TheDarkKnightRises
 =end
 
+class 
+
 inception = [ "love", "mystery" ]
 afterEarth = ["mystery"]
 prometheus = ["mystery"]
@@ -110,7 +112,6 @@ puts calculate.composite_hash(main, :Inception)
 
 puts "#######################   testing auto  ##########################"
 puts calculate.auto(main, update)
-
 
 
 
